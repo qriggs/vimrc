@@ -26,6 +26,7 @@ return require('packer').startup(function(use)
   use("nvim-treesitter/playground")
   use("theprimeagen/harpoon")
   use("mbbill/undotree")	
+  use('navarasu/onedark.nvim')
   use("tpope/vim-fugitive")
 
 
@@ -51,5 +52,7 @@ return require('packer').startup(function(use)
 		  {'rafamadriz/friendly-snippets'},
 	  }
   }
+
+  use('ThePrimeagen/vim-be-good')
 
 end)
